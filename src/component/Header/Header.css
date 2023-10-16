@@ -1,0 +1,11 @@
+.menu-height {
+    height: calc(100vh - 150px);
+}
+
+.menu-height {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.menu-height::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}

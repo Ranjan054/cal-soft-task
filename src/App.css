@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1248px;
+  padding: 0 48px;
+  margin: 0 auto;
+}
+
+.shadow1 {
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.12);
+}
+
+.shadow2 {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+.shadow3 {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.06) inset;
+}
+
+.shadow4 {
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.07);
+}
+
+.gradient-border {
+  /* border: none;
+  border-image: linear-gradient(to right, #2E7DF6, #0DFF6E) 1;  
+  border-image-slice: 1; */
+}
+
+.cardDetail-wrapper {
+  height: calc(100vh - 90px);
+  overflow-y: auto;
+}
